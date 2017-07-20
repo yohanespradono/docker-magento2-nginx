@@ -11,4 +11,4 @@ COPY ./bin/start.sh /usr/local/bin/start.sh
 
 WORKDIR /var/www/html
 
-CMD ["/usr/local/bin/start.sh"]
+CMD ["bash", "/usr/local/bin/start.sh"]
