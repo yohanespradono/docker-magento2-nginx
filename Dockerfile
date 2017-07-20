@@ -1,4 +1,4 @@
-FROM nginx:1.11
+FROM nginx:1.13.3
 MAINTAINER Yohanes Pradono <doniking@gmail.com>
 
 ENV PHP_HOST phpfpm
